@@ -49,7 +49,7 @@ def fetch_weather_from_api(city: str, api_key: str):
 # Replace with your API key
 api_key = os.getenv("Weather_API")
 # Specify the city
-city = 'Timisoara'
+city = 'London'
 
 
 def print_weather(json_data):
